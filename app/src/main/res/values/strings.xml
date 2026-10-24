@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">OpenPOS Guardian</string>
+    <string name="device_admin_label">OpenPOS Guardian Device Admin</string>
+    <string name="device_admin_description">Enables enterprise kiosk lock-task controls, security policies, and application management for dedicated POS terminals.</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_launcher">POS Launcher</string>
+    <string name="nav_kiosk">Kiosk Control</string>
+    <string name="nav_allowlist">Allowlist</string>
+    <string name="nav_device_info">Device Info</string>
+    <string name="nav_audit">Audit Logs</string>
+    <string name="nav_setup">Setup Guide</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_update">Update Info</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">POS Terminal Guardian</string>
+    <string name="dashboard_subtitle">Android Enterprise Dedicated Device Management</string>
+    <string name="status_device_owner">Device Owner</string>
+    <string name="status_lock_task">Lock-Task Mode</string>
+    <string name="status_active_apps">Approved Apps</string>
+    <string name="status_battery">Battery</string>
+    <string name="status_storage">Available Storage</string>
+    <string name="status_system_patch">Security Patch</string>
+    <string name="recent_audit_events">Recent Security Events</string>
+    <string name="view_all_logs">View All Audit Logs</string>
+
+    <!-- Kiosk / Lock Task -->
+    <string name="kiosk_status_title">Kiosk State Management</string>
+    <string name="lock_task_mode_locked">LOCKED (Enterprise Kiosk)</string>
+    <string name="lock_task_mode_pinned">PINNED (Screen Pinning)</string>
+    <string name="lock_task_mode_none">NORMAL (Unpinned)</string>
+    <string name="enter_lock_task">Enter Kiosk Mode</string>
+    <string name="exit_lock_task">Exit Kiosk Mode</string>
+    <string name="start_kiosk_desc">Locks the user interface into dedicated terminal mode. Users cannot exit without admin authentication or authorization.</string>
+    <string name="stop_kiosk_desc">Restores the standard Android navigation controls.</string>
+    <string name="lock_task_packages_title">Configured Lock-Task Packages</string>
+    <string name="sync_allowlist_to_locktask">Sync Allowlist to Device Policy</string>
+    <string name="sync_success">Packages successfully provisioned to lock-task policy.</string>
+    <string name="sync_not_owner">Device Owner privileges are required to configure lock-task packages.</string>
+    <string name="kiosk_features_title">Permitted Kiosk System Features</string>
+    <string name="feature_system_info">System Info (Time, Battery, Wi-Fi)</string>
+    <string name="feature_notifications">Status Bar Notifications</string>
+    <string name="feature_home">Home Navigation Button</string>
+    <string name="feature_keyguard">Show Keyguard on Lock</string>
+    <string name="feature_global_actions">Power Menu (Global Actions)</string>
+
+    <!-- Allowlist -->
+    <string name="allowlist_title">Application Allowlist</string>
+    <string name="allowlist_subtitle">Manage applications authorized for display in the POS Launcher</string>
+    <string name="add_app">Add Application</string>
+    <string name="remove_app">Remove</string>
+    <string name="search_apps">Search applications…</string>
+    <string name="empty_allowlist_title">No Approved Applications</string>
+    <string name="empty_allowlist_desc">Select and approve installed POS and business applications to make them accessible in the POS Launcher.</string>
+    <string name="allowlist_disclaimer">Note: Hiding an app from this launcher does not uninstall it. Strict hardware lockdown requires Device Owner lock-task provisioning.</string>
+    <string name="package_name_label">Package: %1$s</string>
+    <string name="app_already_added">Application is already in the approved allowlist.</string>
+    <string name="select_apps_dialog_title">Approve Installed Applications</string>
+
+    <!-- Launcher -->
+    <string name="launcher_title">POS Terminal Launcher</string>
+    <string name="admin_access_button">Admin Portal</string>
+    <string name="app_launch_failed">Unable to launch application. Intent not resolved.</string>
+    <string name="empty_launcher_message">No applications have been approved for this terminal yet. Access the Admin Portal to configure allowed applications.</string>
+
+    <!-- Audit Logs -->
+    <string name="audit_title">Local Audit Ledger</string>
+    <string name="audit_subtitle">Immutable on-device record of configuration and security events</string>
+    <string name="filter_all">All</string>
+    <string name="filter_success">Success</string>
+    <string name="filter_failure">Failure</string>
+    <string name="filter_security">Security</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="export_logs">Export JSON</string>
+    <string name="confirm_clear_logs_title">Clear Audit Ledger?</string>
+    <string name="confirm_clear_logs_message">This will permanently delete all local audit records. This action cannot be undone.</string>
+    <string name="export_success">Audit ledger successfully exported.</string>
+    <string name="export_failed">Failed to export audit ledger.</string>
+    <string name="no_audit_logs">No audit records match the current filter.</string>
+
+    <!-- Setup Guide -->
+    <string name="setup_title">Device Owner Setup Guide</string>
+    <string name="setup_subtitle">ADB Provisioning Instructions for Dedicated POS Terminals</string>
+    <string name="copy_command">Copy ADB Command</string>
+    <string name="copied_to_clipboard">Command copied to clipboard</string>
+    <string name="deprovision_warning_title">Removing Device Owner</string>
+
+    <!-- Device Info -->
+    <string name="device_info_title">Hardware &amp; Platform Specs</string>
+    <string name="section_device_identity">Device Identity</string>
+    <string name="section_platform_os">Platform &amp; OS</string>
+    <string name="section_battery_power">Power &amp; Battery</string>
+    <string name="section_storage">Storage Metrics</string>
+    <string name="section_enterprise">Enterprise Status</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model</string>
+    <string name="device_brand">Brand / Board</string>
+    <string name="android_version">Android Version</string>
+    <string name="api_level">API Level</string>
+    <string name="security_patch">Security Patch</string>
+    <string name="build_fingerprint">Build ID</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="battery_status">Charging State</string>
+    <string name="battery_health">Battery Health</string>
+    <string name="total_storage">Total Internal Storage</string>
+    <string name="free_storage">Free Storage</string>
+    <string name="uptime">System Uptime</string>
+    <string name="is_device_owner">Device Owner Mode</string>
+    <string name="is_profile_owner">Profile Owner Mode</string>
+    <string name="is_admin_active">Admin Component Active</string>
+
+    <!-- Update Screen -->
+    <string name="update_title">App Version &amp; Distribution</string>
+    <string name="current_version">Installed Version: %1$s (%2$d)</string>
+    <string name="package_name">Application ID: %1$s</string>
+    <string name="distribution_guide_title">Enterprise Distribution Architecture</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Terminal Preferences</string>
+    <string name="theme_selection">Appearance Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="grid_columns_title">Launcher Grid Columns</string>
+    <string name="auto_lock_task_title">Auto Lock-Task on Launch</string>
+    <string name="auto_lock_task_desc">Automatically attempt lock-task mode when OpenPOS Guardian launches.</string>
+    <string name="admin_pin_title">Admin Access PIN</string>
+    <string name="admin_pin_desc">PIN required to exit POS Launcher back to Admin screens.</string>
+
+    <!-- Common UI -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="refresh">Refresh</string>
+    <string name="close">Close</string>
+    <string name="enter_pin">Enter Admin PIN</string>
+    <string name="invalid_pin">Incorrect PIN</string>
+</resources>

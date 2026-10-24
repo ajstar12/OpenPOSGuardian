@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base dark theme for Jetpack Compose Activity -->
+    <style name="Base.Theme.OpenPOSGuardian" parent="android:Theme.Material.NoActionBar">
+    </style>
+</resources>
