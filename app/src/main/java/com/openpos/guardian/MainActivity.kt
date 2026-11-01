@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
     @Inject
     lateinit var settingsRepository: SettingsRepository
 
+
     @Inject
     lateinit var kioskRepository: KioskRepository
 
